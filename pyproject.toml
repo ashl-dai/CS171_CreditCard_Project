@@ -1,0 +1,16 @@
+[project]
+name = "cs171-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "ucimlrepo>=0.0.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
